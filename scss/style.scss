@@ -1,0 +1,14 @@
+@import 'normalize';
+@import 'fgbox-top';
+@import 'fgbox-bottom';
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+
