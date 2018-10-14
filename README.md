@@ -1,2 +1,2 @@
 # I_Love_Design
-https://sa-fardin.github.io/payment_form/
+https://sa-fardin.github.io/i_love_design/
