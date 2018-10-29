@@ -1,0 +1,61 @@
+.main {
+    background-color: #ffffff;
+    background-image: url("../images/bg-lines.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    &__description {
+        font-color: #464b4f;
+        font-family: Segoe UI;
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    &__svg {
+        background-color: #eee;
+    }
+    &__name {
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 64px;
+        margin-top: 3rem;
+        margin-bottom: 2.2rem;
+    }
+    &__box {
+        font-color: #464b4f;
+        width: 33.3%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &__title {
+        font-family: Segoe UI;
+        text-align: left;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-family: Segoe UI;
+        font-size: 14px;
+        text-align: left;
+        line-height: 1.8;
+        padding-bottom: 45px;
+    }
+}
+.scroll-top {
+    border: 1.5px solid #262626;
+    &::before {
+        border-right: 1px solid #262626;
+        border-bottom: 1px solid #262626;
+        transform: rotate(225deg);
+        top: 14px;    }
+    &:hover {
+        border: 1.5px solid #000;
+    }
+}

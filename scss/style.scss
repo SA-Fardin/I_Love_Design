@@ -1,12 +1,13 @@
 @import 'normalize';
-@import 'fgbox-top';
-@import 'fgbox-bottom';
+@import 'header';
+@import 'main';
 
 *, *:before, *:after{
 	box-sizing: border-box;
 }
+
 .container{
-	width: 600px;
+	width:760px;
 	margin: 0 auto;
 }
 
